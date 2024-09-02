@@ -1,0 +1,45 @@
+.calculadora {
+
+    width: 333px;
+    height: 420px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.visor input {
+
+    margin: 10px;
+    width: 300px;
+    height: 60px;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.botoes button {
+
+    margin: 10px;
+    font-size: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.botao {
+    background-color: aqua;
+}
+
+.igual {
+    background-color: #00ff00;
+    width: 60px;
+    margin-left: 30px;
+}
+
+.limpar {
+    background-color: rgb(255, 34, 34);
+    font-size: 2%;
+    align-items: center;
+}
